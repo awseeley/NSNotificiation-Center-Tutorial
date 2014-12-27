@@ -13,6 +13,9 @@
 		94250DD91A4E9E8000BDC9DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94250DD81A4E9E8000BDC9DD /* Images.xcassets */; };
 		94250DDC1A4E9E8000BDC9DD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94250DDA1A4E9E8000BDC9DD /* LaunchScreen.xib */; };
 		94250DE81A4E9E8000BDC9DD /* TuteNSNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94250DE71A4E9E8000BDC9DD /* TuteNSNotificationTests.swift */; };
+		94250DF31A4E9ED800BDC9DD /* sydney.png in Resources */ = {isa = PBXBuildFile; fileRef = 94250DF11A4E9ED800BDC9DD /* sydney.png */; };
+		94250DF41A4E9ED800BDC9DD /* toronto.png in Resources */ = {isa = PBXBuildFile; fileRef = 94250DF21A4E9ED800BDC9DD /* toronto.png */; };
+		94250DF61A4E9F4400BDC9DD /* SetCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94250DF51A4E9F4400BDC9DD /* SetCity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		94250DE11A4E9E8000BDC9DD /* TuteNSNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuteNSNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94250DE61A4E9E8000BDC9DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94250DE71A4E9E8000BDC9DD /* TuteNSNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuteNSNotificationTests.swift; sourceTree = "<group>"; };
+		94250DF11A4E9ED800BDC9DD /* sydney.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sydney.png; sourceTree = "<group>"; };
+		94250DF21A4E9ED800BDC9DD /* toronto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toronto.png; sourceTree = "<group>"; };
+		94250DF51A4E9F4400BDC9DD /* SetCity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetCity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,7 @@
 				94250DD11A4E9E8000BDC9DD /* AppDelegate.swift */,
 				94250DD31A4E9E8000BDC9DD /* ViewController.swift */,
 				94250DD51A4E9E8000BDC9DD /* Main.storyboard */,
+				94250DF51A4E9F4400BDC9DD /* SetCity.swift */,
 				94250DD81A4E9E8000BDC9DD /* Images.xcassets */,
 				94250DDA1A4E9E8000BDC9DD /* LaunchScreen.xib */,
 				94250DCF1A4E9E8000BDC9DD /* Supporting Files */,
@@ -90,6 +97,8 @@
 		94250DCF1A4E9E8000BDC9DD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				94250DF11A4E9ED800BDC9DD /* sydney.png */,
+				94250DF21A4E9ED800BDC9DD /* toronto.png */,
 				94250DD01A4E9E8000BDC9DD /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,6 +202,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				94250DD71A4E9E8000BDC9DD /* Main.storyboard in Resources */,
+				94250DF31A4E9ED800BDC9DD /* sydney.png in Resources */,
+				94250DF41A4E9ED800BDC9DD /* toronto.png in Resources */,
 				94250DDC1A4E9E8000BDC9DD /* LaunchScreen.xib in Resources */,
 				94250DD91A4E9E8000BDC9DD /* Images.xcassets in Resources */,
 			);
@@ -212,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94250DF61A4E9F4400BDC9DD /* SetCity.swift in Sources */,
 				94250DD41A4E9E8000BDC9DD /* ViewController.swift in Sources */,
 				94250DD21A4E9E8000BDC9DD /* AppDelegate.swift in Sources */,
 			);
